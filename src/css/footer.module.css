@@ -6,13 +6,12 @@
   text-align: center;
   width: 100%;
   background-color: #f7ca18;
-  padding: 0;
+  padding: 20px;
   margin: 0;
 }
 
 .item {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 50px;
 }
 
 @media (min-width: 325px) and (max-width: 600px) {
@@ -22,11 +21,14 @@
     font-size: 1em;
     font-weight: bold;
     text-align: center;
-    width: 100%;
     background-color: #f7ca18;
     padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
+  }
+
+  .item {
+    margin: 5px;
   }
 }
